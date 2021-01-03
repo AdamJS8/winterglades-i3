@@ -41,4 +41,8 @@ sudo add-apt-repository ppa:regolith-linux/unstable
 
 sudo apt install i3-gaps
 
+# Themes: MyYaru Mac-Yaru
+
+# Icons: Cuptertino big sur
+
 # Finally drag all the files into the correct place :D
