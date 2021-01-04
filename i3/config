@@ -127,7 +127,7 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+e exec /home/adam/Documents/bash/power.sh
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -182,17 +182,20 @@ bar {
 	}
 }
 
+
+
 # Bind these to launch apps
 bindsym $mod+shift+x exec /home/adam/Documents/bash/lock.sh
 bindsym $mod+shift+p exec flameshot gui
 
 # Always execute feh, for wallpaper, and compton, for transparency, on launch.
-exec_always feh --bg-scale /home/adam/Wallpapers/citybike.jpg
+exec_always feh --bg-scale /home/adam/Wallpapers/focal.png
 exec_always compton
 
 # Reset tracker, which eats ram
 exec_always tracker reset --hard
 
 # Set gaps
-gaps inner 12
-gaps outer 6
+gaps inner 16
+gaps outer 10
+# smart_gaps on
