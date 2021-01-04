@@ -196,6 +196,6 @@ exec_always compton
 exec_always tracker reset --hard
 
 # Set gaps
-gaps inner 16
-gaps outer 10
+gaps inner 14
+gaps outer 8
 # smart_gaps on
