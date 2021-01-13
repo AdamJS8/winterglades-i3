@@ -35,6 +35,10 @@ sudo apt-get install scrot
 
 sudo apt-get install imagemagick
 
+ALTERNATIVELY: You can just run this one really big command
+
+sudo apt-get update && sudo apt-get install git i3 neofetch compton pavucontrol rofi terminator i3blocks feh thunar vim flameshot gnome-multi-writer lxappearance scrot imagemagick
+
 # [Get i3-gaps ppa]
 
 sudo add-apt-repository ppa:regolith-linux/unstable
