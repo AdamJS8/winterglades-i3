@@ -190,6 +190,11 @@ bindsym $mod+shift+p exec flameshot gui
 
 # Always execute feh, for wallpaper, and compton, for transparency, on launch.
 exec_always feh --bg-scale /home/adam/Wallpapers/focal.png
+
+# Toggle animated wallpaper
+bindsym $mod+g exec /home/adam/Documents/bash/back4.sh 0.03 /home/adam/Wallpapers/city.gif
+bindsym $mod+shift+g exec /home/adam/Documents/bash/backoff.sh
+
 exec_always compton
 
 # Reset tracker, which eats ram
