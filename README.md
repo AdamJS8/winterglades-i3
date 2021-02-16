@@ -35,9 +35,11 @@ sudo apt-get install scrot
 
 sudo apt-get install imagemagick
 
+sudo apt-get install arandr
+
 ALTERNATIVELY: You can just run this one really big command
 
-sudo apt-get update && sudo apt-get install git i3 neofetch compton pavucontrol rofi terminator i3blocks feh thunar vim flameshot gnome-multi-writer lxappearance scrot imagemagick
+sudo apt-get update && sudo apt-get install git i3 neofetch compton pavucontrol rofi terminator i3blocks feh thunar vim flameshot gnome-multi-writer lxappearance scrot imagemagick arandr
 
 # [Get i3-gaps ppa]
 
